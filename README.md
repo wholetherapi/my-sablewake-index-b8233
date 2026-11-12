@@ -1,6 +1,10 @@
-git-consortium
-==============
+# my-sablewake-index
 
-This repository is meant to provide an example for editing lists in Markdown. For some more information on Markdown, [check out our guide, "Markdown Basics"][Markdown]. Thanks! :sparkling_heart:
+Personal working copy of the Sablewake Index packaging notes. Not the release
+branch.
 
-[Markdown]: https://help.github.com/articles/markdown-basics "Markdown Basics"
+## Release Checklist
+
+- [x] `src/sablewake/tokenizer/scan.py` — mixed line endings
+- [x] `src/sablewake/shaper/rewrite.py` — synonym depth
+- [x] `src/sablewake/ranker/blend.py` — score merge order
